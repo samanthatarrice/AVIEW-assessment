@@ -87,6 +87,7 @@ Once you have either the emulator or Expo Go installed, you can run it on your l
 <!-- ROADMAP -->
 ## Roadmap
 
+- [ ] Make responsive
 - [ ] Test on mulitple browsers
 - [ ] Ask about forms?
 - [ ] Deploy to GitHub Pages

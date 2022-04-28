@@ -1,11 +1,49 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  background: #16193D;
+}
+
+.gradientBorder {
+  width: 366px;
+  height: 536px;
+  margin: 40px;
+  border-radius: 16.5px;
+  background: linear-gradient(334.7deg, #FE3688, #73BCFF, #B9DCFF, #FE3688);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 article {
-  
+  width: 360px;
+  height: 530px;
+  border-radius: 15px;
+  background: #16193D;
+  color: #FFF;
+  text-align: center;
+  position: relative;
+}
+
+.gradientBackground {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.075) 52.08%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 15px;
+  height: 100%;
+}
+
+article .text {
+  padding: 20px;
+  position: absolute;
+  bottom: 10%;
+}
+
+article:hover {
+  background: linear-gradient(334.7deg, #FE3688, #73BCFF);
+  box-shadow: 15px 15px 40px rgba(115, 188, 255, 0.25), -15px -15px 40px rgba(254, 54, 136, 0.25);
 }
 
 h3, p {
@@ -14,8 +52,11 @@ h3, p {
 
 h3 {
   font-weight: 700;
+  font-size: 36px;
+  padding-bottom: 15px;
 }
 
 p {
-  font-family: 300;
+  font-weight: 400;
+  font-size: 21px;
 }
