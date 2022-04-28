@@ -87,10 +87,10 @@ Once you have either the emulator or Expo Go installed, you can run it on your l
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Make responsive
-- [ ] Test on mulitple browsers
-- [ ] Ask about forms?
-- [ ] Deploy to GitHub Pages
+- [x] Make responsive
+- [x] Test on mulitple browsers (Chrome, Firefox, Safari, Opera)
+- [x] Deploy to GitHub Pages
+- [ ] Add a form?
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -105,7 +105,7 @@ Once you have either the emulator or Expo Go installed, you can run it on your l
 <!-- CONTACT -->
 ## Contact
 
-Made with 💚 by Samantha Tarrice, March 2022
+Made with 💖 by Samantha Tarrice, March 2022
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 

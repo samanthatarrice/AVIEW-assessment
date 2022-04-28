@@ -8,9 +8,24 @@ body {
   background: #16193D;
 }
 
+h3, p {
+  font-family: 'Overpass', sans-serif;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 36px;
+  padding-bottom: 15px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 21px;
+}
+
 .gradientBorder {
-  width: 366px;
-  height: 536px;
+  width: 360px;
+  height: 530px;
   margin: 40px;
   border-radius: 16.5px;
   background: linear-gradient(334.7deg, #FE3688, #73BCFF, #B9DCFF, #FE3688);
@@ -20,8 +35,8 @@ body {
 }
 
 article {
-  width: 360px;
-  height: 530px;
+  width: 356px;
+  height: 526px;
   border-radius: 15px;
   background: #16193D;
   color: #FFF;
@@ -46,17 +61,23 @@ article:hover {
   box-shadow: 15px 15px 40px rgba(115, 188, 255, 0.25), -15px -15px 40px rgba(254, 54, 136, 0.25);
 }
 
-h3, p {
-  font-family: 'Overpass', sans-serif;
-}
+@media (max-width: 600px) {
+  .gradientBorder {
+    width: 304px;
+    height: 474px;
+  }
 
-h3 {
-  font-weight: 700;
-  font-size: 36px;
-  padding-bottom: 15px;
-}
+  article {
+    width: 300px;
+    height: 470px;
+  }
 
-p {
-  font-weight: 400;
-  font-size: 21px;
+  img {
+    width: 80%;
+    margin-top: 10px !important;
+  }
+
+  article .text {
+    bottom: 6.5%;
+  }
 }

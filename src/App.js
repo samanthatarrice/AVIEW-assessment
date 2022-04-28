@@ -1,4 +1,5 @@
 import React, {  } from 'react';
+import { HashRouter } from "react-router-dom";
 
 import Card from './components/Card';
 
@@ -17,22 +18,24 @@ const App = () => {
   }
 
   return (
-    <div style={container}>
-      <Card 
-        cardImg={calendar} 
-        cardAtl={'calendar clipart'}
-        cardTitle={'Fast & Easy'} 
-        cardDescription={'AVIEW guarantees a 24-hour turnaround on subtitle and 48 hours on dubbed content.'}
-        padding={43} 
-      />
-      <Card
-        cardImg= {hands}
-        cardAtl={'hands connecting out of mobile phones clipart'}
-        cardTitle={'Flexible'} 
-        cardDescription={'We offer a personalized payment plan and tailor our process to your needs.'} 
-        padding={0}
-      />
-    </div>
+    <HashRouter>
+      <div style={container}>
+        <Card 
+          cardImg={calendar} 
+          cardAtl={'calendar clipart'}
+          cardTitle={'Fast & Easy'} 
+          cardDescription={'AVIEW guarantees a 24-hour turnaround on subtitle and 48 hours on dubbed content.'}
+          padding={43} 
+        />
+        <Card
+          cardImg= {hands}
+          cardAtl={'hands connecting out of mobile phones clipart'}
+          cardTitle={'Flexible'} 
+          cardDescription={'We offer a personalized payment plan and tailor our process to your needs.'} 
+          padding={0}
+        />
+      </div>
+    </HashRouter>
   );
 }
 

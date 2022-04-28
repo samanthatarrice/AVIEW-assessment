@@ -16,7 +16,7 @@ const Card = ({ cardImg, cardAlt, cardTitle, cardDescription, padding }) => {
         </div>
       </article>
     </div>
-  )
+  );
 }
 
 export default Card;
