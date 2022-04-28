@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+import Card from './components/Card';
+
+//Image Files:
+import calendar from './images/Saly-31.png';
+import hands from './images/Saly-42.png'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Card 
+        cardImg= {calendar} 
+        cardAtl={'calendar clipart'}
+        cardTitle={'Fast & Easy'} 
+        cardText={'AVIEW guarantees a 24-hour turnaround on subtitle and 48 hours on dubbed content.'} 
+      />
+      <Card
+        cardImg= {hands}
+        cardAtl={'hands connecting out of mobile phones clipart'}
+        cardTitle={'Flexible'} 
+        cardText={'We offer a personalized payment plan and tailor our process to your needs.'} 
+      />
+    </>
   );
 }
 
