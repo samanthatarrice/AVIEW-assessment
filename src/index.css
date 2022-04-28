@@ -1,6 +1,15 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+article {
+  
+}
+
+h3, p {
+  font-family: 'Overpass', sans-serif;
 }
 
 h3 {
@@ -9,9 +18,4 @@ h3 {
 
 p {
   font-family: 300;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
