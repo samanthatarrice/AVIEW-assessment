@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/samanthatarrice/AVIEW-assessment.git/static/css/main.0d45464c.css",
+    "main.js": "/samanthatarrice/AVIEW-assessment.git/static/js/main.080fd3be.js",
+    "static/js/787.64b6de91.chunk.js": "/samanthatarrice/AVIEW-assessment.git/static/js/787.64b6de91.chunk.js",
+    "static/media/Saly-31.png": "/samanthatarrice/AVIEW-assessment.git/static/media/Saly-31.4312c81142e2f10d4ce4.png",
+    "static/media/Saly-42.png": "/samanthatarrice/AVIEW-assessment.git/static/media/Saly-42.ddb1b7748f79e288bdda.png",
+    "index.html": "/samanthatarrice/AVIEW-assessment.git/index.html",
+    "main.0d45464c.css.map": "/samanthatarrice/AVIEW-assessment.git/static/css/main.0d45464c.css.map",
+    "main.080fd3be.js.map": "/samanthatarrice/AVIEW-assessment.git/static/js/main.080fd3be.js.map",
+    "787.64b6de91.chunk.js.map": "/samanthatarrice/AVIEW-assessment.git/static/js/787.64b6de91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d45464c.css",
+    "static/js/main.080fd3be.js"
+  ]
+}
